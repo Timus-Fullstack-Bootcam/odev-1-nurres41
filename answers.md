@@ -39,13 +39,7 @@ Global değişken scope ile alakalıdır. Program içinde her scopedan erişileb
 
 == sadece degerleri karşılaştırırken diğeri veri tiplerini de karşılaştırır.
 
-### let var const farkını tablo yapınızç
-
-#  |                Scope  | Tanımlama | Ilk Deger  | Yeniden Kullanılabilirlik
-------------- | ------------- | ------------- | -------------
- const |  Block | False  | Kullanıcı verebilir  | False  |
- var  | Global  | True  |undefined | True |
- let | Block  | True  |Kullanıcı verebilir  | Content Cell  |
+### let var const farkını tablo yapınız.
 
  |              |   Scope         |   Tanımlama     |       Ilk Deger  |       Ilk Deger  |
 | :------------ |:---------------:|:---------------:| :---------------:| :---------------:|
