@@ -31,7 +31,7 @@ Matematikte bazı durumlarda belirsizlik vardır. Sonsuz/Sonsuz veya 0/Sonsuz gi
 
 Global değişken scope ile alakalıdır. Program içinde her scopedan erişilebilen ve manipüle edibilen değişkenlere global variables denilir.
 
-### Javascript’te this anahtar kelimesi nedir açıklayınızç
+### Javascript’te this anahtar kelimesi nedir açıklayınız.
 
 Örneğin bir class içerisinde işlem yaparken o class içindeki değer ile işlem yaparken this keywordunu kullanırız. Kısacası metod içerisinde kullanılan this her zaman o objeye referans olur.
 
