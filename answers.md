@@ -43,6 +43,13 @@ Global değişken scope ile alakalıdır. Program içinde her scopedan erişileb
 
 #  |                Scope  | Tanımlama | Ilk Deger  | Yeniden Kullanılabilirlik
 ------------- | ------------- | ------------- | -------------
- cont |  Block | False  | Kullanıcı verebilir  | False  |
+ const |  Block | False  | Kullanıcı verebilir  | False  |
  var  | Global  | True  |undefined | True |
  let | Block  | True  |Kullanıcı verebilir  | Content Cell  |
+
+ |              |   Scope         |   Tanımlama     |       Ilk Deger  |       Ilk Deger  |
+| :------------ |:---------------:|:---------------:| :---------------:| :---------------:|
+| const         | Block           |  False          |  Kullanıcı verebilir  | False  |
+| var           | Global          |  True           |     undefined         |    True        |
+| let           | Block           |  True           |   Kullanıcı verebilir |Content Cell |
+
